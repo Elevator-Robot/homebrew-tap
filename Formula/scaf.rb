@@ -2,7 +2,7 @@ class Scaf < Formula
   desc "CLI tool that clones and syncs git repos defined in a scaf.yml file"
   homepage "https://github.com/Elevator-Robot/scaf"
   url "https://github.com/Elevator-Robot/scaf/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "a8a1bbc6df5cb4d2e15332cdc13538472794547a354a3caaf99476314271c2b1"
   license "MIT"
 
   depends_on "go" => :build
