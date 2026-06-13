@@ -6,10 +6,10 @@ class Purple < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://raw.githubusercontent.com/Elevator-Robot/homebrew-tap/main/releases/purple_0.1.1_darwin_amd64.tar.gz"
-      sha256 "e1ad7f4a02a6ba285a06334eb94281a2449634cecae345e005bf96b1773b750e"
+      sha256 "e52874ce375856602def26fde162d744e13a3445b24729f8b535255758b5b277"
     else
       url "https://raw.githubusercontent.com/Elevator-Robot/homebrew-tap/main/releases/purple_0.1.1_darwin_arm64.tar.gz"
-      sha256 "b36597c584444f3981edf031ec4f088fa19659beff4ec2797a19495157b07a82"
+      sha256 "7d7ba12347088d1597e8d5acc1e609f7ab1c7412aa92397d6cf9c02720721cda"
     end
   end
 
