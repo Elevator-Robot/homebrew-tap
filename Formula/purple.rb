@@ -2,7 +2,7 @@ class Purple < Formula
   desc "Lightweight ngrok-style reverse proxy tunnel client"
   homepage "https://github.com/Elevator-Robot/purple"
   url "https://github.com/Elevator-Robot/purple/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "626c7c545e7b7090d00a3b54625cfe35ea03a68b4adc4359d338f88c79a446ef"
   license "MIT"
 
   depends_on "go" => :build
