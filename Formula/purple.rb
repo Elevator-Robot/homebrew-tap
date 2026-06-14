@@ -5,11 +5,11 @@ class Purple < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Elevator-Robot/homebrew-tap/releases/download/v1.0.2/purple_1.0.2_darwin_amd64.tar.gz"
-      sha256 "62fa75f1c04e9ced783669f4ae19365d31b7b01e96761ae1d12d4cfb9700e703"
+      url "https://github.com/Elevator-Robot/homebrew-tap/releases/download/v0.1.3/purple_0.1.3_darwin_amd64.tar.gz"
+      sha256 "b62e66e25e58fec13002d6f9294cf5ffd0c4453b8f966cfd5bc22e2b362e2c59"
     else
-      url "https://github.com/Elevator-Robot/homebrew-tap/releases/download/v1.0.2/purple_1.0.2_darwin_arm64.tar.gz"
-      sha256 "452ab8ce3f1c3dfad226705b32a6b70194675896434a1d475a3f4f2f9dafe508"
+      url "https://github.com/Elevator-Robot/homebrew-tap/releases/download/v0.1.3/purple_0.1.3_darwin_arm64.tar.gz"
+      sha256 "d383d110c094efdb8c953cc723b224639fa01175a5c5727c32802768be0e9f41"
     end
   end
 
